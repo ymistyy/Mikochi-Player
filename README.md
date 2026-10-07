@@ -126,7 +126,7 @@ The player is just a normal Go application, so it can run on basically any Linux
 
 Clone the repository:
 
-    git clone Note to self CHANGE THIS URL MAN!
+    git clone https://github.com/ymistyy/Mikochi-Player
     cd mikochi-player
 
 Edit it:
