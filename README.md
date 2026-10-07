@@ -17,7 +17,7 @@ It is basically a small companion app that sits with Mikochi and provides a simp
 
 ## Screenshots
 
-![Video player](https://imgur.com/a/ybgxcoG)
+![Video player](https://i.imgur.com/yW9LMiM.png)
 
 ---
 
