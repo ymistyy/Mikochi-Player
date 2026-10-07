@@ -17,17 +17,7 @@ It is basically a small companion app that sits with Mikochi and provides a simp
 
 ## Screenshots
 
-### File browser
-
-![File browser](I still need to add a screenshot)
-
-### Video player
-
-![Video player](I still need to add a screenshot)
-
-### Subtitles Option
-
-![Subtitles option](I still need to add a screenshot)
+![Video player](https://imgur.com/a/ybgxcoG)
 
 ---
 
