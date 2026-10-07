@@ -61,8 +61,6 @@ You can find the original Mikochi project here:
 
 **https://github.com/zer0tonin/Mikochi**
 
-Mikochi is an open-source project released under the MIT License.
-
 ---
 
 # Installation
