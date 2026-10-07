@@ -208,7 +208,7 @@ For example:
         v
     Mikochi
 
-This is useful if you want to access the player through a proper hostname instead of a port.
+This is useful if you want to access the player through a hostname instead of a port.
 
 For example:
 
