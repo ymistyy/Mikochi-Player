@@ -32,13 +32,8 @@ It is basically a small companion app that sits with Mikochi and provides a simp
 - Automatically looks for subtitles in the same folder as the video
 - Multiple subtitle tracks can be selected
 - SRT files are converted to WebVTT for browser playback
-- Supports a wide range of common video file extensions
+- Supports a wide range of video file extensions
 - Keeps the Mikochi credentials on the server
-- No database required
-- No external frontend framework
-- Just a small Go application with HTML/CSS/JavaScript!
-
-The goal is to keep it simple.
 
 ---
 
