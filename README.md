@@ -2,8 +2,7 @@
 
 A small web-based video player made to work alongside [Mikochi](https://github.com/zer0tonin/Mikochi).
 
-I really liked Mikochi as a simple self-hosted file browser,  I wanted a other way to watch videos from it directly in a browser, especially on phones and other devices where opening a Mikochi streaming link in VLC isn't always as convenient.
-
+I really liked Mikochi as a simple self-hosted file browser,  I wanted a other way to watch videos from it directly in a browser, especially on phones and other devices.
 So I made this!
 
 It is basically a small companion app that sits with Mikochi and provides a simple video player while keeping Mikochi as the source of the files.
