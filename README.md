@@ -44,7 +44,7 @@ The goal is to keep it simple.
 
 ## Example
 
-If your Mikochi folder contains:
+If your folder contains:
 
     Movies/
     ├── Example Movie.mkv
