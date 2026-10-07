@@ -277,8 +277,6 @@ The browser receives its own session cookie while the Mikochi authentication tok
 
 Do **not** expose `config.json` publicly.
 
-If you expose this application to the internet, use HTTPS and a proper reverse proxy and make sure you understand the security implications.
-
 ---
 
 # Video formats
@@ -335,9 +333,9 @@ SRT subtitles are converted to WebVTT on the server because WebVTT is supported 
 
 Mikochi already does a great job at being a lightweight file browser and it can generate streaming links for VLC/MPV.
 
-I mainly wanted something a little more convenient for watching things from a phone, tablet or another computer without having to copy a streaming URL into another application.
+I mainly wanted something a little more convenient for watching things from a phone, tablet or another computer without having to copy a streaming URL to VLC because i mainly use it for movies.
 
-This project is just my solution to that.
+This project is just my fix to that.
 
 Thank you Mikochi!
 
@@ -353,7 +351,7 @@ https://github.com/zer0tonin/Mikochi
 
 Mikochi is created and maintained by its original authors. Please visit the original repository for the actual Mikochi project, documentation, source code and license information.
 
-This project is an independent companion application and is not affiliated with or endorsed by the Mikochi project.
+This project is independentand is not affiliated with or endorsed by the Mikochi project.
 
 ---
 
