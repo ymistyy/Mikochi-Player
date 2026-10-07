@@ -1,0 +1,7 @@
+{
+  "listen": "0.0.0.0:8090",
+  "mikochi_url": "your_mikochi_url",
+  "mikochi_username": "changeme",
+  "mikochi_password": "changeme",
+  "session_ttl_hours": 24
+}

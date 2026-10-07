@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="dark">
+  <title>Mikochi Player</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <header class="header">
+    <a class="logo" href="/" aria-label="Mikochi Player">
+      <img class="logo-mark" src="/static/mikochi-logo.png" alt="Mikochi">
+      <span>Mikochi Player</span>
+    </a>
+    <nav>
+      <button id="logout" class="nav-button hidden">Logout</button>
+    </nav>
+  </header>
+
+  <main class="page">
+    <section id="login-view" class="login-card">
+      <h1>Mikochi Player</h1>
+      <p>Sign in with your Mikochi account.</p>
+      <form id="login-form">
+        <label>
+          Username
+          <input id="username" autocomplete="username" required>
+        </label>
+        <label>
+          Password
+          <input id="password" type="password" autocomplete="current-password" required>
+        </label>
+        <button class="primary" type="submit">Sign in</button>
+        <p id="login-error" class="error"></p>
+      </form>
+    </section>
+
+    <section id="browser-view" class="hidden">
+      <div class="toolbar">
+        <div>
+          <h1>Files</h1>
+          <div id="breadcrumbs" class="breadcrumbs"></div>
+        </div>
+        <button id="up" class="icon-button" title="Go up">↩</button>
+      </div>
+      <div id="browser-error" class="error"></div>
+      <div id="file-list" class="file-list"></div>
+    </section>
+
+    <section id="player-view" class="hidden">
+      <div class="player-header">
+        <button id="back" class="text-button">← Back</button>
+        <div id="now-playing"></div>
+      </div>
+      <div class="player-wrap">
+        <video id="video" controls playsinline preload="metadata"></video>
+      </div>
+      <div class="player-controls">
+        <label>
+          Volume
+          <input id="volume" type="range" min="0" max="1" step="0.01" value="1">
+        </label>
+        <label>
+          Subtitles
+          <select id="subtitle" disabled>
+            <option value="">Off</option>
+          </select>
+        </label>
+        <label>
+          Quality
+          <select id="quality" disabled>
+            <option>Source</option>
+          </select>
+        </label>
+        <button id="fullscreen" class="control-button">Fullscreen</button>
+      </div>
+      <p class="hint">SRT subtitles in the same folder as the video are detected automatically. Matching files such as <code>Movie.srt</code>, <code>Movie.nl.srt</code> and <code>Movie.en.srt</code> appear in the Subtitles menu.</p>
+    </section>
+  </main>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

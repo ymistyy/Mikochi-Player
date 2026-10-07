@@ -1,0 +1,262 @@
+:root {
+  color-scheme: dark;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  color: #e6e1c5;
+  background: #073642;
+  font-size: 16px;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: #073642;
+  color: #e6e1c5;
+}
+
+button, input, select {
+  font: inherit;
+}
+
+.hidden { display: none !important; }
+
+.header {
+  position: fixed;
+  inset: 0 0 auto 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 4.5rem;
+  padding: 0 1rem;
+  background: #002b36;
+  box-shadow: 0 0 5px rgba(0, 0, 0, .5);
+  z-index: 50;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: .45rem;
+  color: #d4cb92;
+  text-decoration: none;
+  line-height: 3.5rem;
+}
+
+.logo-mark {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
+.nav-button, .text-button, .icon-button, .control-button {
+  border: 0;
+  color: #d4cb92;
+  background: transparent;
+  cursor: pointer;
+}
+
+.nav-button {
+  padding: .7rem 1rem;
+}
+
+.nav-button:hover, .text-button:hover, .icon-button:hover, .control-button:hover {
+  background: rgba(0, 0, 0, .2);
+}
+
+.page {
+  width: min(1080px, calc(100% - 2rem));
+  margin: 0 auto;
+  padding: 6rem 0 2rem;
+}
+
+.login-card {
+  max-width: 420px;
+  margin: 8vh auto;
+  padding: 2rem;
+  background: #002b36;
+  border-radius: .5rem;
+  box-shadow: 0 0 10px rgba(0,0,0,.25);
+}
+
+h1 {
+  margin: 0 0 .5rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+p { color: #b8b29a; }
+
+form {
+  display: grid;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+label {
+  display: grid;
+  gap: .45rem;
+}
+
+input, select {
+  width: 100%;
+  min-height: 2.5rem;
+  border: 1px solid #31545b;
+  border-radius: .35rem;
+  padding: .55rem .7rem;
+  color: #e6e1c5;
+  background: #001d24;
+}
+
+input:focus, select:focus {
+  outline: 2px solid #80a4ed;
+  outline-offset: 1px;
+}
+
+.primary {
+  border: 0;
+  border-radius: .35rem;
+  padding: .7rem 1rem;
+  color: #002b36;
+  background: #d4cb92;
+  cursor: pointer;
+}
+
+.error {
+  min-height: 1.25rem;
+  color: #ed8a80;
+}
+
+.toolbar, .player-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.breadcrumbs {
+  margin-top: .35rem;
+  color: #80a4ed;
+  overflow-wrap: anywhere;
+}
+
+.file-list {
+  border-top: 1px solid rgba(230, 225, 197, .12);
+}
+
+.file-row {
+  display: grid;
+  grid-template-columns: 2.5rem minmax(0, 1fr) 8rem 8rem;
+  align-items: center;
+  min-height: 3.5rem;
+  border-bottom: 1px solid rgba(230, 225, 197, .08);
+}
+
+.file-row:hover {
+  background: #002b36;
+}
+
+.file-icon {
+  text-align: center;
+  color: #d4cb92;
+}
+
+.file-name {
+  min-width: 0;
+  padding: .75rem;
+  color: #d4cb92;
+  text-decoration: none;
+  overflow-wrap: anywhere;
+}
+
+.file-size {
+  padding: .75rem;
+  color: #b8b29a;
+  text-align: right;
+}
+
+.file-action {
+  padding: .5rem;
+  text-align: right;
+}
+
+.watch-button {
+  border: 0;
+  border-radius: .3rem;
+  padding: .45rem .7rem;
+  color: #d4cb92;
+  background: rgba(0, 0, 0, .2);
+  cursor: pointer;
+}
+
+.watch-button:hover {
+  background: rgba(0, 0, 0, .4);
+}
+
+.player-wrap {
+  width: 100%;
+  overflow: hidden;
+  background: #001d24;
+  box-shadow: 0 0 8px rgba(0,0,0,.3);
+}
+
+video {
+  display: block;
+  width: 100%;
+  max-height: 75vh;
+  background: #000;
+}
+
+.player-controls {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+  padding: .8rem;
+  background: #002b36;
+  border-radius: .35rem;
+}
+
+.player-controls label {
+  display: flex;
+  align-items: center;
+  gap: .6rem;
+  min-width: 12rem;
+}
+
+.control-button {
+  padding: .6rem .8rem;
+}
+
+.hint {
+  font-size: .85rem;
+}
+
+@media (max-width: 639px) {
+  .header { height: 4rem; }
+  .page {
+    width: calc(100% - 1rem);
+    padding-top: 5rem;
+  }
+
+  .logo span:last-child { display: none; }
+
+  .file-row {
+    grid-template-columns: 2rem minmax(0, 1fr) auto;
+  }
+
+  .file-size { display: none; }
+
+  .file-action { padding-right: 0; }
+
+  .player-controls {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .player-controls label {
+    min-width: 0;
+    display: grid;
+    grid-template-columns: 5rem 1fr;
+  }
+}
