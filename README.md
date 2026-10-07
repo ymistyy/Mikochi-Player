@@ -340,8 +340,6 @@ Thank you Mikochi!
 
 # Credits
 
-This project would not exist without Mikochi.
-
 **Original project:**
 
 https://github.com/zer0tonin/Mikochi
