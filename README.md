@@ -59,48 +59,6 @@ You can find the original Mikochi project here:
 
 # Installation
 
-## Windows
-
-Download or clone this repository.
-
-Open PowerShell in the project directory:
-
-    cd C:\path\to\mikochi-player
-
-Edit `config.json`:
-
-    {
-      "listen": "0.0.0.0:8090",
-      "mikochi_url": "Whatever the URL or IP is",
-      "mikochi_username": "YOUR_MIKOCHI_USERNAME",
-      "mikochi_password": "YOUR_MIKOCHI_PASSWORD",
-      "session_ttl_hours": 24
-    }
-
-Then start the player:
-
-    go run .
-
-You should see something similar to:
-
-    Mikochi Player listening on http://0.0.0.0:8090
-
-Open:
-
-    http://127.0.0.1:8090
-
-If you want to access it from another device on your network, use the IP address of the computer running the player:
-
-    http://192.168.1.100:8090
-
-You may need to allow the port through Windows Firewall.
-
----
-
-# Linux
-
-The player is just a normal Go application, so it can run on basically any Linux machine where Go is available.
-
 Clone the repository:
 
     git clone https://github.com/ymistyy/Mikochi-Player
