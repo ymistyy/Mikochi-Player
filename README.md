@@ -14,7 +14,7 @@ So I made this!
 
 ## Screenshots
 
-![Video player](https://imgur.com/a/VIxDnAU)
+![Video player](https://imgur.com/4qhhTRh.png)
 
 ---
 
