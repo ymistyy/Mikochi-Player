@@ -5,7 +5,7 @@ A small web-based video player made to work alongside [Mikochi](https://github.c
 I really liked Mikochi as a simple self-hosted file browser,  I wanted a other way to watch videos from it directly in a browser, especially on phones and other devices.
 So I made this!
 
-> **This is not an official Mikochi project.**
+> **This is the official Mikochi project.**
 >
 > I am not affiliated with, connected to, or endorsed by the Mikochi project or its author.
 > I simply liked the project and wanted something like this for my own setup. I figured other people might find it useful too!
@@ -14,7 +14,7 @@ So I made this!
 
 ## Screenshots
 
-![Video player](https://i.imgur.com/yW9LMiM.png)
+![Video player](https://imgur.com/a/VIxDnAU.png) 
 
 ---
 
