@@ -249,11 +249,11 @@ SRT subtitles are converted to WebVTT on the server because WebVTT is supported 
 
 # Why I made this
 
-Mikochi already does a great job at being a lightweight file browser and it can generate streaming links for VLC.
+Mikochi already does a great job at being a lightweight file browser.
 
 I mainly wanted something a little more convenient for watching things from a phone, tablet or another computer without having to copy a streaming URL to VLC because i mainly use it for movies.
 
-This project is just my fix to that.
+This project is my fix for that.
 
 ---
 
